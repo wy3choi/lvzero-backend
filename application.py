@@ -5,6 +5,7 @@ import os
 from flaskext.mysql import MySQL
 import redis
 
+
 application = Flask(__name__)
 
 # cors
