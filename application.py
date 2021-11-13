@@ -3,7 +3,6 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import os
 
-
 application = Flask(__name__)
 cors = CORS(application, resources={r"/*": {"origins": "*"}})
 
